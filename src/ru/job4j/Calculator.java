@@ -15,3 +15,4 @@ public class Calculator {
         System.out.println(fourTimeTwo);
     }
 }
+
