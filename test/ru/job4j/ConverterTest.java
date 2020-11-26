@@ -19,6 +19,6 @@ public class ConverterTest {
         int in = 180;
         int expected = 3;
         float out = Converter.rubleToDollar(in);
-        Assert.assertEquals(expected, out);
+        Assert.assertEquals(expected, out, 0.01);
     }
 }
