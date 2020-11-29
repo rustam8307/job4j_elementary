@@ -15,6 +15,7 @@ import org.junit.Test;
          Assert.assertEquals(expected, out, 0.01);
      }
 
+     @Test
      public void when11to21then1() {
          int expected = 1;
          int x1 = 1;
@@ -25,6 +26,7 @@ import org.junit.Test;
          Assert.assertEquals(expected, out, 0.01);
      }
 
+     @Test
      public void when53to51then2() {
          int expected = 2;
          int x1 = 5;
@@ -35,6 +37,7 @@ import org.junit.Test;
          Assert.assertEquals(expected, out, 0.01);
      }
 
+     @Test
      public void when20to10then1() {
          int expected = 1;
          int x1 = 2;
