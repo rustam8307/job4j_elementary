@@ -12,7 +12,7 @@ public class ArrayDefinition {
         names[0] = "Petr";
         names[1] = "Alex";
         names[2] = "Rustam";
-        names[3] = "Vika";
+        names[3] = "Andrey";
         System.out.println(names[0]);
         System.out.println(names[1]);
         System.out.println(names[2]);
