@@ -8,6 +8,16 @@ public class SwitchArray {
         return array;
     }
 
+    public static String[] swap(String[] array, int source, int dest) {
+        if (source >= array.length || source < 0 || dest >= array.length || dest < 0) {
+            return new String[]{};
+        }
+        String temp = array[source];
+        array[source] = array[dest];
+        array[dest] = temp;
+        return array;
+    }
+
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
         array[0] = array[array.length - 1];
