@@ -37,7 +37,15 @@ import org.junit.Test;
          Point b = new Point(1, 0);
          double out = a.distance(b);
          double expected = 1;
+         Assert.assertEquals(expected, out, 0.01);
+     }
 
+     @Test
+     public void when500to400then1() {
+         Point a = new Point(5, 0, 0);
+         Point b = new Point(4, 0, 0);
+         double out = a.distance(b);
+         double expected = 1;
          Assert.assertEquals(expected, out, 0.01);
      }
 }
